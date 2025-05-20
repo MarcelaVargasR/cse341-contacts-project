@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MarcelaVargasR/cse341-contacts-project/issues"
   },
-  "homepage": "https://github.com/MarcelaVargasR/cse341-contacts-project#readme"
+  "homepage": "https://github.com/MarcelaVargasR/cse341-contacts-project#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
