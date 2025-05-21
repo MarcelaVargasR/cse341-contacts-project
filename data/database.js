@@ -5,7 +5,7 @@ const { MongoClient } = require('mongodb');
 
 let database;
 
-const initDb = (callback) => {
+const initDatabase = (callback) => {
   if (database) {
     console.log('Db is already initialized!');
     return callback(null, database);
@@ -29,6 +29,8 @@ const getDatabase = () => {
 };
 
 module.exports = {
-  initDb,
-  getDatabase,
+  initDatabase,
+  getDatabase
 };
+
+
